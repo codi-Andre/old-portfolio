@@ -21,8 +21,10 @@
   --clr-dark: #030203;
   --clr-primary: #b91c1c;
   --clr-secondary: #cfe0f2;
-  --clr-tertiary: #f3f3f4;
   --clr-accent: #7013cd;
+  --clr-neutral300: #d4d4d4;
+  --clr-neutral500: #737373;
+  --clr-neutral700: #404040;
 
   /* sizes */
   --size-xxs: 0.5rem;
@@ -46,10 +48,7 @@
   :root {
     --clr-light: #030203;
     --clr-dark: #fcfcfd;
-    --clr-primary: #b91c1c;
     --clr-secondary: #091420;
-    --clr-tertiary: #0b0a0b;
-    --clr-accent: #7013cd;
   }
 }
 

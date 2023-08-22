@@ -1,3 +1,36 @@
+.pallette {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.pallette__color {
+  width: 50px;
+  height: 50px;
+  content: "";
+}
+
+.color1 {
+  background-color: var(--clr-primary);
+}
+.color2 {
+  background-color: var(--clr-secondary);
+}
+.color3 {
+  background-color: var(--clr-accent);
+}
+.color4 {
+  background-color: var(--clr-neutral300);
+}
+.color5 {
+  background-color: var(--clr-neutral500);
+}
+.color6 {
+  background-color: var(--clr-neutral700);
+}
+
 .btn {
   color: var(--clr-light);
   font-weight: 500;
