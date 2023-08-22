@@ -1,0 +1,96 @@
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
+
+:root {
+  --clr-light: #fcfcfd;
+  --clr-dark: #030203;
+  --clr-primary: #b91c1c;
+  --clr-secondary: #cfe0f2;
+  --clr-tertiary: #f3f3f4;
+  --clr-accent: #7013cd;
+
+  /* sizes */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-light: #030203;
+    --clr-dark: #fcfcfd;
+    --clr-primary: #b91c1c;
+    --clr-secondary: #091420;
+    --clr-tertiary: #0b0a0b;
+    --clr-accent: #7013cd;
+  }
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Bespoke Slab", sans-serif;
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+}
+
+h1 {
+  font-family: "Bespoke Stencil", sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+strong {
+  color: var(--clr-accent);
+}
