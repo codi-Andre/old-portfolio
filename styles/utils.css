@@ -1,9 +1,10 @@
 .pallette {
-  position: fixed;
+  position: absolute;
   top: 0;
+  left: 0;
   display: flex;
-  justify-content: center;
   border-radius: 8px;
+  width: 300px;
 }
 
 .pallette__color {
