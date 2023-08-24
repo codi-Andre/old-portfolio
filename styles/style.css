@@ -44,12 +44,10 @@
   --size-10xl: 10rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --clr-light: #030203;
-    --clr-dark: #fcfcfd;
-    --clr-secondary: #091420;
-  }
+.dark {
+  --clr-light: #030203;
+  --clr-dark: #fcfcfd;
+  --clr-secondary: #091420;
 }
 
 * {
