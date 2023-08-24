@@ -19,10 +19,6 @@
   font-size: var(--size-sm);
 }
 
-.about__img {
-  margin: 0 auto;
-}
-
 /* xs */
 @media (min-width: 475px) {
   .about {

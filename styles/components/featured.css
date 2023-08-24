@@ -90,7 +90,7 @@
 
 /* sm */
 @media (min-width: 640px) {
-  .featured__img--container {
+  .featured__img--wrapper {
     margin: 0 auto;
   }
 
