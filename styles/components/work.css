@@ -12,7 +12,7 @@
   margin: 1rem auto;
 }
 
-.work__project--title {
+.work__project-title {
   font-size: var(--size-base);
   margin-bottom: 1rem;
 }
@@ -21,25 +21,25 @@
   margin-bottom: 5rem;
 }
 
-.work__project--description1 {
+.work__project-description1 {
   font-size: var(--size-sm);
   margin: 1rem 0;
 }
 
-.work__project--description2 {
+.work__project-description2 {
   font-size: var(--size-sm);
   margin-bottom: 1rem;
 }
 
-.work__project--btn {
+.work__project-btn {
   font-size: var(--size-sm);
 }
 
-.work__project--subtitle {
+.work__project-subtitle {
   display: none;
 }
 
-.work__img--wrapper {
+.work__img-wrapper {
   background-color: var(--clr-secondary);
   min-height: 20rem;
   min-width: 20rem;
@@ -56,22 +56,22 @@
     margin: 1.5rem auto;
   }
 
-  .work__project--title {
+  .work__project-title {
     font-size: var(--size-lg);
     margin-bottom: 1.5rem;
   }
 
-  .work__project--description1 {
+  .work__project-description1 {
     font-size: var(--size-base);
     margin: 1.5rem 0;
   }
 
-  .work__project--description2 {
+  .work__project-description2 {
     font-size: var(--size-base);
     margin-bottom: 1.5rem;
   }
 
-  .work__project--btn {
+  .work__project-btn {
     font-size: var(--size-base);
   }
 }
@@ -111,21 +111,21 @@
     padding: 0 1rem;
   }
 
-  .work__project--title {
+  .work__project-title {
     display: none;
   }
 
-  .work__project--description1 {
+  .work__project-description1 {
     font-size: var(--size-xs);
     margin: 1em 0;
   }
 
-  .work__project--description2 {
+  .work__project-description2 {
     font-size: var(--size-xs);
     margin-bottom: 1em;
   }
 
-  .work__project--btn {
+  .work__project-btn {
     font-size: var(--size-xs);
   }
 
@@ -133,7 +133,7 @@
     margin-bottom: 0;
   }
 
-  .work__project--subtitle {
+  .work__project-subtitle {
     display: block;
     font-size: var(--size-base);
   }
@@ -141,19 +141,19 @@
 
 /* md */
 @media (min-width: 768px) {
-  .work__project--description1 {
+  .work__project-description1 {
     font-size: var(--size-sm);
   }
 
-  .work__project--description2 {
+  .work__project-description2 {
     font-size: var(--size-sm);
   }
 
-  .work__project--btn {
+  .work__project-btn {
     font-size: var(--size-sm);
   }
 
-  .work__project--subtitle {
+  .work__project-subtitle {
     font-size: var(--size-lg);
   }
 }
@@ -168,19 +168,19 @@
     font-size: var(--size-lg);
   }
 
-  .work__project--description1 {
+  .work__project-description1 {
     font-size: var(--size-base);
   }
 
-  .work__project--description2 {
+  .work__project-description2 {
     font-size: var(--size-base);
   }
 
-  .work__project--btn {
+  .work__project-btn {
     font-size: var(--size-base);
   }
 
-  .work__project--subtitle {
+  .work__project-subtitle {
     font-size: var(--size-xl);
   }
 }
@@ -196,19 +196,19 @@
     margin: 2rem auto;
   }
 
-  .work__project--description1 {
+  .work__project-description1 {
     font-size: var(--size-lg);
   }
 
-  .work__project--description2 {
+  .work__project-description2 {
     font-size: var(--size-lg);
   }
 
-  .work__project--btn {
+  .work__project-btn {
     font-size: var(--size-lg);
   }
 
-  .work__project--subtitle {
+  .work__project-subtitle {
     font-size: var(--size-2xl);
   }
 
@@ -217,7 +217,7 @@
     margin: 0 auto;
   }
 
-  .work__img--wrapper {
+  .work__img-wrapper {
     min-height: 30rem;
     min-width: 30rem;
   }
