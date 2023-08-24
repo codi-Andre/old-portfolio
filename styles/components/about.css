@@ -19,8 +19,8 @@
   font-size: var(--size-sm);
 }
 
-.about__hr {
-  border-color: var(--clr-neutral300);
+.about__img {
+  margin: 0 auto;
 }
 
 /* xs */
@@ -44,7 +44,7 @@
 
 /* sm */
 @media (min-width: 640px) {
-  .about__img-wrapper {
+  .about__img--wrapper {
     margin: 0 auto;
   }
 
