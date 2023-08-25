@@ -8,7 +8,12 @@
       rel="stylesheet"
     />
     <link rel="icon" href="/favicon.ico" />
-    <title>Portfolio</title>
+    <meta name="description" content="Portfolio Website" />
+    <meta
+      name="keywords"
+      content="portfolio, front-end developer, web developer"
+    />
+    <title>Portfolio Website</title>
   </head>
   <body>
     <header class="header container">
@@ -25,7 +30,11 @@
           </li>
           <li class="header__line"></li>
           <li>
-            <button id="theme-toggle" class="header__sun">
+            <button
+              aria-label="trocar tema"
+              id="theme-toggle"
+              class="header__sun"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -53,7 +62,7 @@
             <a href="#" class="header__resume btn">Currículo</a>
           </li>
         </ul>
-        <button class="header__bars">
+        <button aria-label="menu de navegação" class="header__bars">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -88,7 +97,7 @@
           <li class="mobile-nav__link-line"></li>
           <li>
             <button
-              aria-label="theme-toggle btn"
+              aria-label="trocar tema"
               id="theme-toggle"
               class="mobile-nav__sun"
             >
@@ -156,7 +165,7 @@
           </p>
         </div>
         <div class="about__img-wrapper">
-          <img class="about__img" src="/logos1.jpg" alt="" />
+          <img loading="lazy" class="about__img" src="/logos1.jpg" alt="" />
         </div>
       </section>
       <section id="featured" class="featured container section">
@@ -167,6 +176,7 @@
         <div class="featured__introduction">
           <div class="featured__img-wrapper">
             <img
+              loading="lazy"
               class="featured__img"
               src="/portfolio-screenshot.jpg"
               alt="portfolio screenshot"
@@ -221,7 +231,7 @@
           <!-- Project 1 -->
           <h3 class="work__project-title">Projeto 1</h3>
           <div class="work__img-wrapper work__image1">
-            <img src="" alt="Imagem do projeto 1" />
+            <img loading="lazy" src="" alt="Imagem do projeto 1" />
           </div>
           <div class="work__project work__content1">
             <h3 class="work__project-subtitle">Lorem, ipsum dolor</h3>
@@ -239,7 +249,7 @@
           <!-- Project 2 -->
           <h3 class="work__project-title">Projeto 2</h3>
           <div class="work__img-wrapper work__image2">
-            <img src="" alt="Imagem do projeto 2" />
+            <img loading="lazy" src="" alt="Imagem do projeto 2" />
           </div>
           <div class="work__project work__content2">
             <h3 class="work__project-subtitle">Lorem, ipsum dolor</h3>
