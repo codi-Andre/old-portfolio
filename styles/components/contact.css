@@ -8,17 +8,30 @@
 }
 
 .contact__title {
-  font-size: var(--size-2xl);
+  font-size: var(--size-xl);
   text-transform: capitalize;
 }
 
 .contact__description {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   font-size: var(--size-sm);
   max-width: 60ch;
 }
 
 .contact__btn {
   font-size: var(--size-sm);
+}
+
+.contact__footer {
+  font-size: var(--size-xs);
+  font-weight: 500;
+  color: var(--clr-neutral500);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  user-select: none;
 }
 
 /* xs */
@@ -28,7 +41,7 @@
   }
 
   .contact__title {
-    font-size: var(--size-3xl);
+    font-size: var(--size-2xl);
   }
 
   .contact__description {
@@ -49,7 +62,7 @@
 /* lg */
 @media (min-width: 1024px) {
   .contact__title {
-    font-size: var(--size-4xl);
+    font-size: var(--size-3xl);
   }
 
   .contact__description {
@@ -68,7 +81,7 @@
   }
 
   .contact__title {
-    font-size: var(--size-5xl);
+    font-size: var(--size-4xl);
   }
 
   .contact__description {

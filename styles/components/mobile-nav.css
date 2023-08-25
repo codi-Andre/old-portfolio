@@ -47,6 +47,18 @@
   color: var(--clr-neutral500);
 }
 
+.mobile-nav__sun .moon-icon {
+  display: none;
+}
+
+.dark .mobile-nav__sun .moon-icon {
+  display: block;
+}
+
+.dark .mobile-nav__sun .sun-icon {
+  display: none;
+}
+
 .mobile-nav__btn {
   font-size: var(--size-sm);
 }

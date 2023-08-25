@@ -41,10 +41,11 @@
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="#404040"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
+                class="sun-icon"
               >
                 <circle cx="12" cy="12" r="4" />
                 <path d="M12 2v2" />
@@ -56,10 +57,32 @@
                 <path d="m6.34 17.66-1.41 1.41" />
                 <path d="m19.07 4.93-1.41 1.41" />
               </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#fcfcfd"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="moon-icon"
+              >
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                <path d="M19 3v4" />
+                <path d="M21 5h-4" />
+              </svg>
             </button>
           </li>
           <li>
-            <a href="#" class="header__resume btn">Currículo</a>
+            <a
+              class="header__resume btn"
+              href="mailto:uefs.andre@gmail.com"
+              target="_blank"
+            >
+              Enviar um email
+            </a>
           </li>
         </ul>
         <button aria-label="menu de navegação" class="header__bars">
@@ -103,12 +126,41 @@
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
                 viewBox="0 0 24 24"
-                fill="currentColor"
+                fill="none"
+                stroke="#404040"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="sun-icon"
               >
-                <path
-                  d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
-                />
+                <circle cx="12" cy="12" r="4" />
+                <path d="M12 2v2" />
+                <path d="M12 20v2" />
+                <path d="m4.93 4.93 1.41 1.41" />
+                <path d="m17.66 17.66 1.41 1.41" />
+                <path d="M2 12h2" />
+                <path d="M20 12h2" />
+                <path d="m6.34 17.66-1.41 1.41" />
+                <path d="m19.07 4.93-1.41 1.41" />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#fcfcfd"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="moon-icon"
+              >
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                <path d="M19 3v4" />
+                <path d="M21 5h-4" />
               </svg>
             </button>
           </li>
@@ -265,29 +317,21 @@
           </div>
         </div>
       </section>
-      <section id="contact" class="contact container section">
-        <h2 class="contact__title">Precisa de um desenvolvedor front-end?</h2>
-        <p>uefs.andre@gmail.com</p>
-        <h3 class="contact__description">Vamos trabalhar juntos</h3>
-        <a
-          class="contact__btn btn"
-          href="mailto:uefs.andre@gmail.com"
-          target="_blank"
-          >Enviar um email</a
-        >
-      </section>
     </main>
-    <footer class="footer container section">
-      <h3 class="footer__title">~André~</h3>
+    <footer id="contact" class="contact container section">
+      <h3 class="contact__title">Precisa de um desenvolvedor front-end?</h3>
+      <p class="contact__description">
+        uefs.andre@gmail.com
+        <a class="btn" href="mailto:uefs.andre@gmail.com"
+          ><img src="/mail.svg" alt="email"
+        /></a>
+        <a class="btn" href="https://www.linkedin.com/in/andre-web-dev"
+          ><img src="/linkedin.svg" alt="linkedin"
+        /></a>
+      </p>
+      <h3 class="contact__title">Vamos trabalhar juntos</h3>
+      <p class="contact__footer">~André~</p>
     </footer>
-    <div class="pallette">
-      <div class="pallette__color color1"></div>
-      <div class="pallette__color color2"></div>
-      <div class="pallette__color color3"></div>
-      <div class="pallette__color color4"></div>
-      <div class="pallette__color color5"></div>
-      <div class="pallette__color color6"></div>
-    </div>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
