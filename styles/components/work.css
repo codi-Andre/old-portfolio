@@ -45,6 +45,12 @@
   min-width: 20rem;
 }
 
+.work__project-list {
+  list-style-type: none;
+  margin-bottom: 1rem;
+  font-size: var(--size-sm);
+}
+
 /* xs */
 @media (min-width: 475px) {
   .work__title {
@@ -72,6 +78,10 @@
   }
 
   .work__project-btn {
+    font-size: var(--size-base);
+  }
+
+  .work__project-list {
     font-size: var(--size-base);
   }
 }

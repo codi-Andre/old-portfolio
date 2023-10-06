@@ -81,7 +81,7 @@
               href="mailto:uefs.andre@gmail.com"
               target="_blank"
             >
-              Enviar um email
+              Enviar uma mensagem
             </a>
           </li>
         </ul>
@@ -109,13 +109,13 @@
       <nav>
         <ul class="mobile-nav__menu">
           <li>
-            <a class="mobile-nav__link" href="#about">About</a>
+            <a class="mobile-nav__link" href="#about">Sobre</a>
           </li>
           <li>
-            <a class="mobile-nav__link" href="#featured">Work</a>
+            <a class="mobile-nav__link" href="#featured">Projetos</a>
           </li>
           <li>
-            <a class="mobile-nav__link" href="#contact">Contact</a>
+            <a class="mobile-nav__link" href="#contact">Contato</a>
           </li>
           <li class="mobile-nav__link-line"></li>
           <li>
@@ -165,7 +165,12 @@
             </button>
           </li>
           <li>
-            <a class="mobile-nav__btn btn" href="#">Resume</a>
+            <a
+              class="mobile-nav__btn btn"
+              target="_blank"
+              href="mailto:uefs.andre@gmail.com"
+              >Enviar uma mensagem</a
+            >
           </li>
         </ul>
       </nav>
@@ -211,8 +216,8 @@
           </p>
           <p class="about__description">
             O aperfeiçoamento vem com a prática, para isso, utilizo as
-            ferramentas que aprendi e tenho conciência que é preciso entender os
-            fundamentos por trás destas tecnologias.
+            ferramentas que aprendi e tenho consciência que é preciso entender
+            os fundamentos por trás destas tecnologias.
           </p>
         </div>
         <div class="about__img-wrapper">
@@ -245,8 +250,8 @@
             <p class="featured__description">
               Por ser um projeto pequeno, visando sua longevidade e reduzir a
               dependência de fontes externas, não foi utilizado bibliotecas de
-              terceiros, apenas a ferramenta Vite para gerar uma versão de
-              produção reduzindo o tamanho final do código.
+              terceiros, apenas o bundler Vite para gerar uma versão minificada
+              do código, reduzindo o tamanho a ser enviado ao client.
             </p>
           </div>
         </div>
@@ -291,18 +296,27 @@
           <div class="work__project work__content1">
             <h3 class="work__project-subtitle">Shopping List</h3>
             <p class="work__project-description1">
-              Projeto pessoal, front-end, pequeno, utilizando NextJS e uma
-              biblioteca de componentes UI, buscando atender a uma necessidade
-              do dia a dia das pessoas, uma lista de compras que calcula o preço
-              dos itens e do total.
+              Buscando atender a uma necessidade do dia a dia das pessoas, uma
+              lista de compras que calcula o preço dos itens e do total.
             </p>
-            <p class="work__project-description2">
-              Aprendi com meus erros neste projeto, que não bastava que os
-              componentes da interface coubessem em qualquer tela, era preciso
-              garantir uma boa experiência do usuário.
-            </p>
+            <h4>Características do projeto</h4>
+            <ul class="work__project-list">
+              <li>
+                Biblioteca de gerenciamento de estado <strong>ReduxJS</strong>
+              </li>
+              <li>Biblioteca de componentes Radix-UI</li>
+              <li>Design Responsivo(mobile first)</li>
+              <li>Meta-framework NextJS</li>
+            </ul>
             <a
               class="btn work__project-btn"
+              target="_blank"
+              href="https://codi-shopping-list.vercel.app/"
+              >Site</a
+            >
+            <a
+              class="btn work__project-btn"
+              target="_blank"
               href="https://github.com/codi-Andre/shopping-list"
               >Repo</a
             >
@@ -335,8 +349,15 @@
             </p>
             <a
               class="btn work__project-btn"
+              target="_blank"
               href="https://github.com/codi-Andre/equivalent"
-              >Repo</a
+              >Repo Frontend</a
+            >
+            <a
+              class="btn work__project-btn"
+              target="_blank"
+              href="https://github.com/codi-Andre/equivalent-backend"
+              >Repo Backend</a
             >
           </div>
         </div>
@@ -346,11 +367,14 @@
       <h3 class="contact__title">Precisa de um desenvolvedor front-end?</h3>
       <p class="contact__description">
         uefs.andre@gmail.com
-        <a class="btn" href="mailto:uefs.andre@gmail.com"
+        <a class="btn" target="_blank" href="mailto:uefs.andre@gmail.com"
           ><img src="/mail.svg" alt="email"
         /></a>
-        <a class="btn" href="https://www.linkedin.com/in/andre-web-dev"
-          ><img src="/linkedin.svg" alt="linkedin"
+        <a
+          class="btn"
+          target="_blank"
+          href="https://www.linkedin.com/in/andre-web-dev"
+          ><img src="/linkedin.svg" alt="LinkedIn"
         /></a>
       </p>
       <h3 class="contact__title">Vamos trabalhar juntos</h3>
