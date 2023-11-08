@@ -26,7 +26,7 @@
 
 ## Technologies
 
-This project is under development with the following technologies:
+This project was developed with the following technologies:
 
 - [Vite](https://vitejs.dev/)
 
