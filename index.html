@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=bespoke-stencil@701,501,300,700,500,301,401,400&f[]=bespoke-slab@700,701,400,401,301,501,300,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/portfolio/favicon.ico" />
+    <meta name="description" content="Portfolio Website" />
+    <meta
+      name="keywords"
+      content="portfolio, front-end developer, web developer"
+    />
+    <title>Portfolio Website</title>
+    <script type="module" crossorigin src="/portfolio/assets/index-9319b87e.js"></script>
+    <link rel="stylesheet" href="/portfolio/assets/index-25dac2d0.css">
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#about">Sobre</a>
+          </li>
+          <li>
+            <a class="header__link" href="#featured">Projetos</a>
+          </li>
+          <li>
+            <a class="header__link" href="#contact">Contato</a>
+          </li>
+          <li class="header__line"></li>
+          <li>
+            <button
+              aria-label="trocar tema"
+              id="theme-toggle"
+              class="header__sun"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#404040"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="sun-icon"
+              >
+                <circle cx="12" cy="12" r="4" />
+                <path d="M12 2v2" />
+                <path d="M12 20v2" />
+                <path d="m4.93 4.93 1.41 1.41" />
+                <path d="m17.66 17.66 1.41 1.41" />
+                <path d="M2 12h2" />
+                <path d="M20 12h2" />
+                <path d="m6.34 17.66-1.41 1.41" />
+                <path d="m19.07 4.93-1.41 1.41" />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#fcfcfd"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="moon-icon"
+              >
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                <path d="M19 3v4" />
+                <path d="M21 5h-4" />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a
+              class="header__resume btn"
+              href="mailto:uefs.andre@gmail.com"
+              target="_blank"
+            >
+              Enviar uma mensagem
+            </a>
+          </li>
+        </ul>
+        <button aria-label="menu de navegação" class="header__bars">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="4" x2="20" y1="12" y2="12" />
+            <line x1="4" x2="20" y1="6" y2="6" />
+            <line x1="4" x2="20" y1="18" y2="18" />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#about">Sobre</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#featured">Projetos</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#contact">Contato</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <button
+              aria-label="trocar tema"
+              id="theme-toggle"
+              class="mobile-nav__sun"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#404040"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="sun-icon"
+              >
+                <circle cx="12" cy="12" r="4" />
+                <path d="M12 2v2" />
+                <path d="M12 20v2" />
+                <path d="m4.93 4.93 1.41 1.41" />
+                <path d="m17.66 17.66 1.41 1.41" />
+                <path d="M2 12h2" />
+                <path d="M20 12h2" />
+                <path d="m6.34 17.66-1.41 1.41" />
+                <path d="m19.07 4.93-1.41 1.41" />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#fcfcfd"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="moon-icon"
+              >
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
+                <path d="M19 3v4" />
+                <path d="M21 5h-4" />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a
+              class="mobile-nav__btn btn"
+              target="_blank"
+              href="mailto:uefs.andre@gmail.com"
+              >Enviar uma mensagem</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End of Mobile Navigation -->
+    <main>
+      <section class="hero container">
+        <img class="hero__img" src="/portfolio/profile-pic.png" alt="Profile picture" />
+        <h2 class="hero__subtitle">Olá, meu nome é André</h2>
+        <h1 class="hero__title">
+          FRONT-END WEB<br />
+          DEVELOPER
+        </h1>
+        <p class="hero__description">
+          Entusiasta da programação e de suas ferramentas incríveis, se
+          especializando na criação de
+          <strong>sites responsivos e fidedignos ao design</strong>.
+        </p>
+        <a
+          class="hero__btn btn"
+          href="https://www.linkedin.com/in/andre-web-dev"
+          target="_blank"
+        >
+          Entre em contato
+        </a>
+      </section>
+      <section id="about" class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">Sobre</h2>
+          <p class="about__description">
+            Movido pela paixão em aprender e embora não tenha tido a
+            oportunidade e condição para trilhar o caminho tradicional de ensino
+            na área de ciências da computação, estou determinado a trilhar esta
+            carreira.
+          </p>
+          <p class="about__description">
+            Pude contar com a orientação e críticas de um desenvolvedor sênior,
+            que ajudou e orientou-me ao longo do caminho, expondo-me também a
+            conceitos mais complexos como,
+            <strong>versionamento de código</strong> com git e github,
+            <strong>noções básicas de UI/UX</strong> e
+            <strong>algoritmos e estrutura de dados</strong>.
+          </p>
+          <p class="about__description">
+            O aperfeiçoamento vem com a prática, para isso, utilizo as
+            ferramentas que aprendi e tenho consciência que é preciso entender
+            os fundamentos por trás destas tecnologias.
+          </p>
+        </div>
+        <div class="about__img-wrapper">
+          <img loading="lazy" class="about__img" src="/portfolio/logos1.jpg" alt="" />
+        </div>
+      </section>
+      <section id="featured" class="featured container section">
+        <div class="featured__wrapper">
+          <h2 class="featured__title">E-commerce</h2>
+          <h3 class="featured__subtitle">Projeto em destaque</h3>
+        </div>
+        <div class="featured__introduction">
+          <div class="featured__img-wrapper">
+            <img
+              loading="lazy"
+              class="featured__img"
+              src="/portfolio/e-commerce.jpg"
+              alt="e-commerce thumbnail"
+            />
+          </div>
+          <div>
+            <p class="featured__description">
+              Site de e-commerce respeitando o design original, responsivo porém
+              sem interatividade, criado a partir do <strong>Figma.</strong>
+            </p>
+            <p class="featured__description">
+              Você pode ver por si mesmo e comparar o resultado:
+            </p>
+            <ul class="featured__description">
+              <li>
+                <a href="https://codi-andre.github.io/e-commerce/"
+                  >Site criado a partir do design.</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.figma.com/community/file/1096834804853006903/Powerful-E-commerce-Template-for-a-Dynamic-Shopping-Website"
+                  >Design original no Figma.</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="featured__info-container">
+          <div>
+            <h3 class="featured__label">Tech stack</h3>
+            <ul class="featured__tech-stack">
+              <li class="featured__info">Vite</li>
+              <li class="featured__info">ReactJS</li>
+              <li class="featured__info">TailWindCSS</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="featured__label">Tipo do projeto</h3>
+            <p class="featured__info">Front-end</p>
+          </div>
+          <div>
+            <h3 class="featured__label">Linha do tempo</h3>
+            <p class="featured__info">Novembro 2023</p>
+          </div>
+        </div>
+      </section>
+      <section class="work container section">
+        <h2 class="work__title">Projetos</h2>
+        <p class="work__description">
+          Nesta seção está contido projetos pessoais, com o objetivo de
+          demonstrar habilidades exigidas no contexto da profissão de
+          desenvolvedor.
+        </p>
+        <div class="work__container">
+          <!-- Project 1 -->
+          <h3 class="work__project-title">Shopping List</h3>
+          <div class="work__img-wrapper work__image1">
+            <img
+              loading="lazy"
+              src="/portfolio/shopping-list_screenshot.jpg"
+              alt="Shopping list screenshot"
+            />
+          </div>
+          <div class="work__project work__content1">
+            <h3 class="work__project-subtitle">Shopping List</h3>
+            <p class="work__project-description1">
+              Buscando atender a uma necessidade do dia a dia das pessoas, uma
+              lista de compras que calcula o preço dos itens e do total.
+            </p>
+            <h4>Características do projeto</h4>
+            <ul class="work__project-list">
+              <li>
+                Biblioteca de gerenciamento de estado <strong>ReduxJS</strong>
+              </li>
+              <li>Biblioteca de componentes Radix-UI</li>
+              <li>Design Responsivo(mobile first)</li>
+              <li>Meta-framework NextJS</li>
+            </ul>
+            <a
+              class="btn work__project-btn"
+              target="_blank"
+              href="https://codi-shopping-list.vercel.app/"
+              >Site</a
+            >
+            <a
+              class="btn work__project-btn"
+              target="_blank"
+              href="https://github.com/codi-Andre/shopping-list"
+              >Repo</a
+            >
+          </div>
+
+          <!-- Project 2 -->
+          <h3 class="work__project-title">Equivalent</h3>
+          <div class="work__img-wrapper work__image2">
+            <img
+              loading="lazy"
+              src="/portfolio/equivalent-screenshot.jpg"
+              alt="Equivalent screenshot"
+            />
+          </div>
+          <div class="work__project work__content2">
+            <h3 class="work__project-subtitle">Equivalent</h3>
+            <p class="work__project-description1">
+              Projeto de estudo, front-end com integração a uma API REST. Com a
+              participação de outras 2 pessoas, um desenvolvedor sênior (como
+              orientador) e um nutricionista (como consultor), o projeto é uma
+              ferramenta para ajudar pessoas a calcular o valor equivalente de
+              calorias entre dois alimentos.
+            </p>
+            <p class="work__project-description2">
+              O projeto está sendo desenvolvido em ReactJS, com o desafio de
+              migrar o projeto futuramente para mobile e full stack. Entretanto
+              já foi um grande aprendizado até aqui, ter a oportunidade de ser
+              orientado por alguém com muita experiência na área e trabalhar com
+              um profissional de outra área também.
+            </p>
+            <a
+              class="btn work__project-btn"
+              target="_blank"
+              href="https://github.com/codi-Andre/equivalent"
+              >Repo Frontend</a
+            >
+            <a
+              class="btn work__project-btn"
+              target="_blank"
+              href="https://github.com/codi-Andre/equivalent-backend"
+              >Repo Backend</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact" class="contact container section">
+      <h3 class="contact__title">Precisa de um desenvolvedor front-end?</h3>
+      <p class="contact__description">
+        uefs.andre@gmail.com
+        <a class="btn" target="_blank" href="mailto:uefs.andre@gmail.com"
+          ><img src="/portfolio/mail.svg" alt="email"
+        /></a>
+        <a
+          class="btn"
+          target="_blank"
+          href="https://www.linkedin.com/in/andre-web-dev"
+          ><img src="/portfolio/linkedin.svg" alt="LinkedIn"
+        /></a>
+      </p>
+      <h3 class="contact__title">Vamos trabalhar juntos</h3>
+      <p class="contact__footer">~André~</p>
+    </footer>
+    
+  </body>
+</html>
